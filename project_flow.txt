@@ -19,4 +19,4 @@ Note: just for the demonstration purpose, we're creating a folder name `S3` in o
 7. add files to storage area of DVC.
     dvc commit
     dvc push        # add files to remote storage area.
-8. 
+8. Do some changes in the data.
