@@ -20,3 +20,6 @@ Note: just for the demonstration purpose, we're creating a folder name `S3` in o
     dvc commit
     dvc push        # add files to remote storage area.
 8. Do some changes in the data.
+9. rollback to previous versions of data.
+    first run git log --oneline     # to list all commits along with their hashes.
+    git checkout <hash>
