@@ -23,3 +23,6 @@ Note: just for the demonstration purpose, we're creating a folder name `S3` in o
 9. rollback to previous versions of data.
     first run git log --oneline     # to list all commits along with their hashes.
     git checkout <hash>
+    dvc pull        # to pull the same version of data files.
+
+    # if want to come back run:     git checkout main
