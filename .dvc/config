@@ -1,0 +1,5 @@
+[core]
+    remote = remote_folder_s3
+    autostage = true
+['remote "remote_folder_s3"']
+    url = ../S3

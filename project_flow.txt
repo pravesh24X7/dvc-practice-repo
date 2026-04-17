@@ -4,3 +4,16 @@ Contains the steps done while learning DVC.
 2. Create a code.py file and add code to save titanic dataset into a folder `/data/`.
 3. Do a git add-commit-push before initializing DVC.
 
+## Before moving any further, make sure to run `pip install dvc`.
+4. Now initialize the DVC, using `dvc init`  command.
+    It creates 2 files .dvcignore, .dvc
+Note: just for the demonstration purpose, we're creating a folder name `S3` in our local system, which mimics the functionality of external storage.
+    Creating a folder `S3`:     `mkdir ./S3`.
+5. Now register the S3 folder to DVC.
+    "dvc remote add -d <foldername> <location>"
+    example: dvc remote add -d remote_folder_s3 ./S3
+6. Now register `data/` folder to DVC for versioning of data.
+    dvc add data/   # after this, whatever files are there in data folder DVC peforms versioning and maintain backups.
+
+    before running above command run below given commands, which removes the tracking of data from git.
+7. 
