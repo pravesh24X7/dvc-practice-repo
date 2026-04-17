@@ -16,4 +16,7 @@ Note: just for the demonstration purpose, we're creating a folder name `S3` in o
     dvc add data/   # after this, whatever files are there in data folder DVC peforms versioning and maintain backups.
 
     before running above command run below given commands, which removes the tracking of data from git.
-7. 
+7. add files to storage area of DVC.
+    dvc commit
+    dvc push        # add files to remote storage area.
+8. 
