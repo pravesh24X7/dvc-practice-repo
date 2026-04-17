@@ -1,0 +1,6 @@
+Contains the steps done while learning DVC.
+
+1. Created a git repo. and clone it in our local system.
+2. Create a code.py file and add code to save titanic dataset into a folder `/data/`.
+3. Do a git add-commit-push before initializing DVC.
+
